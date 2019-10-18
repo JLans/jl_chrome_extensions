@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "UD Proxify",
+  "version": "2.2",
+  "description": "An extension that uses UD's Proxify to access Research Journals for free",
+  "permissions": [
+	"activeTab"
+	
+  ],
+  "description": "Download scientific articles.",
+  "browser_action": {
+    	"default_icon": "Proxify_Icon.png"
+  },
+
+"background":{
+  "scripts": ["eventPage.js"],
+  "persistent": false
+}
+
+
+}
